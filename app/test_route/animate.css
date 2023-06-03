@@ -1,0 +1,31 @@
+.hero-title p:nth-child(1) {
+  animation: hero-slide-reverse 1000ms;
+  transition: all 500ms ease-in-out;
+}
+
+.hero-title p:nth-child(2) {
+  animation: hero-slide 800ms;
+  transition: all 500ms ease-in-out;
+}
+
+@keyframes hero-slide-reverse {
+  0% {
+    transform: translateX(-500px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes hero-slide {
+  0% {
+    transform: translateX(500px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
