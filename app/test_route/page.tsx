@@ -44,11 +44,6 @@ const Test_route_segment = () => {
 
   const [data, setData] = React.useState(defaultValue);
 
-  React.useEffect(() => {
-    console.log("Reaect")
-  }, [])
-  
-
   const profileSrc =
     "https://scontent.fbkk22-7.fna.fbcdn.net/v/t39.30808-6/347610620_599060812184689_436539206477618355_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGanqOfjYkAGXNZQNiy3VedvcxOCPKk60K9zE4I8qTrQmpr6DODVOYhU34FclltMP5Lzq36e6CB3zn0l9EsxKvc&_nc_ohc=vtm0PbpjLh4AX-pwzSd&_nc_zt=23&_nc_ht=scontent.fbkk22-7.fna&oh=00_AfAJOPzghQ9h5ZdIUj8_zKRX73sP-LF1Z_a67_qRI1JoOA&oe=647F0547";
 
